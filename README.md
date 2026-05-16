@@ -13,7 +13,7 @@ This project is a **Content-Based Recommendation System** built entirely from sc
 - **Methodology:** Information Retrieval Models, Linear Algebra
 
 ## 🧠 Theory to Implementation
-The mathematical and theoretical foundation of this project is extensively documented. To see exactly how the concepts of TF-IDF, Vector Normalization, and User Profiling are mapped to the code, please read the [Theory Implementation Guide](theory-implementation.md).
+The mathematical and theoretical foundation of this project is extensively documented. To see exactly how the concepts of TF-IDF, Vector Normalization, and User Profiling are mapped to the code, please read the [Project Report (PDF)](report.pdf).
 
 ## 🚀 How to Run Locally
 
