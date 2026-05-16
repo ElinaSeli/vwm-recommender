@@ -1,0 +1,25 @@
+<hgroup>
+    <h2>My Recommendations</h2>
+    <p>Calculated live using the exact scalar products of your User Profile Vector, IDF Vector, and Movie Feature Vectors.</p>
+</hgroup>
+
+<table class="striped">
+    <thead>
+        <tr>
+            <th scope="col">Rank</th>
+            <th scope="col">Final Score</th>
+            <th scope="col">Movie Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% recommendations.forEach((rec, index) => { %>
+        <tr>
+            <td>#<%= index + 1 %></td>
+            <td><code><%= rec.score.toFixed(4) %></code></td>
+            <td><strong><%= rec.title %></strong></td>
+        </tr>
+        <% }); %>
+    </tbody>
+</table>
+
+<a href="/" role="button" class="secondary">Back to Movies</a>

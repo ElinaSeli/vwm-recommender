@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BI-VWM Recommender App (Node.js)</title>
+    <!-- Lightweight PicoCSS framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <style>
+        body { padding-top: 1rem; }
+        .alert {
+            padding: 1rem; 
+            margin-bottom: 2rem; 
+            border-radius: 4px;
+        }
+        .alert-success { background-color: #d4edda; color: #155724; }
+        .alert-warning { background-color: #fff3cd; color: #856404; }
+        .movies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <nav>
+            <ul>
+                <li><strong><a href="/" class="contrast">Movies Recommender</a></strong></li>
+            </ul>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/recommendations">My Recommendations</a></li>
+                <li><a href="/admin">Admin</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <% if (locals.message && message) { %>
+            <div class="alert alert-<%= message.type %>">
+                <%= message.text %>
+            </div>
+        <% } %>
+
+        <%- body %>
+    </main>
+</body>
+</html>

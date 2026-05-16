@@ -1,0 +1,42 @@
+<hgroup>
+    <h2>All Movies</h2>
+    <p>Rate movies to build your preference vector and generate content-based recommendations.</p>
+</hgroup>
+
+<div class="movies-grid">
+    <% movies.forEach((movie, m_idx) => { %>
+        <% const current_rating = user_ratings[m_idx] || 0; %>
+        
+        <article>
+            <header>
+                <strong><%= movie.title %></strong> (<%= movie.year %>)
+            </header>
+            <p>
+                <small><strong>Genres:</strong> <%= movie.categories.join(', ') %></small><br>
+                <small><strong>Global Rating:</strong> <%= movie.rating %>/10</small>
+            </p>
+            <footer>
+                <div class="grid">
+                    <a href="/rate/<%= movie.id %>/1" 
+                       role="button" 
+                       style="font-size: 0.8rem; padding: 0.5rem;"
+                       class="<%= current_rating === 1 ? 'contrast' : 'secondary outline' %>">
+                       Like (+1)
+                    </a>
+                    <a href="/rate/<%= movie.id %>/-1" 
+                       role="button" 
+                       style="font-size: 0.8rem; padding: 0.5rem;"
+                       class="<%= current_rating === -1 ? 'contrast' : 'secondary outline' %>">
+                       Dislike (-1)
+                    </a>
+                    <a href="/rate/<%= movie.id %>/0" 
+                       role="button" 
+                       style="font-size: 0.8rem; padding: 0.5rem;"
+                       class="<%= current_rating === 0 ? 'secondary' : 'secondary outline' %>">
+                       Clear (0)
+                    </a>
+                </div>
+            </footer>
+        </article>
+    <% }); %>
+</div>

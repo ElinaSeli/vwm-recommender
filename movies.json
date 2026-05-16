@@ -1,0 +1,292 @@
+[
+    {
+        "id": 1,
+        "title": "The Matrix",
+        "categories": [
+            "Sci-Fi",
+            "Action"
+        ],
+        "year": 1999,
+        "rating": 8.7,
+        "normalized_features": {
+            "year": 0.7857,
+            "rating": 0.87
+        }
+    },
+    {
+        "id": 2,
+        "title": "Inception",
+        "categories": [
+            "Sci-Fi",
+            "Action",
+            "Thriller"
+        ],
+        "year": 2010,
+        "rating": 8.8,
+        "normalized_features": {
+            "year": 0.873,
+            "rating": 0.88
+        }
+    },
+    {
+        "id": 3,
+        "title": "Interstellar",
+        "categories": [
+            "Sci-Fi",
+            "Drama"
+        ],
+        "year": 2014,
+        "rating": 8.7,
+        "normalized_features": {
+            "year": 0.9048,
+            "rating": 0.87
+        }
+    },
+    {
+        "id": 4,
+        "title": "The Dark Knight",
+        "categories": [
+            "Action",
+            "Drama",
+            "Thriller"
+        ],
+        "year": 2008,
+        "rating": 9.0,
+        "normalized_features": {
+            "year": 0.8571,
+            "rating": 0.9
+        }
+    },
+    {
+        "id": 5,
+        "title": "Pulp Fiction",
+        "categories": [
+            "Drama",
+            "Thriller"
+        ],
+        "year": 1994,
+        "rating": 8.9,
+        "normalized_features": {
+            "year": 0.746,
+            "rating": 0.89
+        }
+    },
+    {
+        "id": 6,
+        "title": "Forrest Gump",
+        "categories": [
+            "Drama",
+            "Romance"
+        ],
+        "year": 1994,
+        "rating": 8.8,
+        "normalized_features": {
+            "year": 0.746,
+            "rating": 0.88
+        }
+    },
+    {
+        "id": 7,
+        "title": "The Shawshank Redemption",
+        "categories": [
+            "Drama"
+        ],
+        "year": 1994,
+        "rating": 9.3,
+        "normalized_features": {
+            "year": 0.746,
+            "rating": 0.93
+        }
+    },
+    {
+        "id": 8,
+        "title": "Avengers: Endgame",
+        "categories": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "year": 2019,
+        "rating": 8.4,
+        "normalized_features": {
+            "year": 0.9444,
+            "rating": 0.84
+        }
+    },
+    {
+        "id": 9,
+        "title": "Titanic",
+        "categories": [
+            "Drama",
+            "Romance"
+        ],
+        "year": 1997,
+        "rating": 7.9,
+        "normalized_features": {
+            "year": 0.7698,
+            "rating": 0.79
+        }
+    },
+    {
+        "id": 10,
+        "title": "Jurassic Park",
+        "categories": [
+            "Adventure",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "year": 1993,
+        "rating": 8.2,
+        "normalized_features": {
+            "year": 0.7381,
+            "rating": 0.82
+        }
+    },
+    {
+        "id": 11,
+        "title": "Mad Max: Fury Road",
+        "categories": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "year": 2015,
+        "rating": 8.1,
+        "normalized_features": {
+            "year": 0.9127,
+            "rating": 0.81
+        }
+    },
+    {
+        "id": 12,
+        "title": "Gladiator",
+        "categories": [
+            "Action",
+            "Drama",
+            "Adventure"
+        ],
+        "year": 2000,
+        "rating": 8.5,
+        "normalized_features": {
+            "year": 0.7937,
+            "rating": 0.85
+        }
+    },
+    {
+        "id": 13,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "categories": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "year": 2001,
+        "rating": 8.8,
+        "normalized_features": {
+            "year": 0.8016,
+            "rating": 0.88
+        }
+    },
+    {
+        "id": 14,
+        "title": "The Silence of the Lambs",
+        "categories": [
+            "Drama",
+            "Thriller"
+        ],
+        "year": 1991,
+        "rating": 8.6,
+        "normalized_features": {
+            "year": 0.7222,
+            "rating": 0.86
+        }
+    },
+    {
+        "id": 15,
+        "title": "Star Wars: Episode IV - A New Hope",
+        "categories": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "year": 1977,
+        "rating": 8.6,
+        "normalized_features": {
+            "year": 0.6111,
+            "rating": 0.86
+        }
+    },
+    {
+        "id": 16,
+        "title": "Spirited Away",
+        "categories": [
+            "Animation",
+            "Adventure",
+            "Family"
+        ],
+        "year": 2001,
+        "rating": 8.6,
+        "normalized_features": {
+            "year": 0.8016,
+            "rating": 0.86
+        }
+    },
+    {
+        "id": 17,
+        "title": "Spider-Man: Into the Spider-Verse",
+        "categories": [
+            "Animation",
+            "Action",
+            "Adventure"
+        ],
+        "year": 2018,
+        "rating": 8.4,
+        "normalized_features": {
+            "year": 0.9365,
+            "rating": 0.84
+        }
+    },
+    {
+        "id": 18,
+        "title": "The Grand Budapest Hotel",
+        "categories": [
+            "Comedy",
+            "Drama"
+        ],
+        "year": 2014,
+        "rating": 8.1,
+        "normalized_features": {
+            "year": 0.9048,
+            "rating": 0.81
+        }
+    },
+    {
+        "id": 19,
+        "title": "Parasite",
+        "categories": [
+            "Comedy",
+            "Drama",
+            "Thriller"
+        ],
+        "year": 2019,
+        "rating": 8.5,
+        "normalized_features": {
+            "year": 0.9444,
+            "rating": 0.85
+        }
+    },
+    {
+        "id": 20,
+        "title": "Dune: Part Two",
+        "categories": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "year": 2024,
+        "rating": 8.8,
+        "normalized_features": {
+            "year": 0.9841,
+            "rating": 0.88
+        }
+    }
+]
